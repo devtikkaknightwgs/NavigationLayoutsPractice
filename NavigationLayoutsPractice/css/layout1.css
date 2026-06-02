@@ -1,0 +1,78 @@
+.navbar {
+  background-color: #0078d7;
+}
+
+.loginBtn {
+  background: #0078d7;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #f5f5f5;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  height: 80px;
+  padding: 0 40px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.navbar .logo {
+  font-size: 1.8rem;
+  color: #333;
+}
+.navbar .navLink {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+.navbar .navLink a {
+  text-decoration: none;
+  color: #333;
+  transition: 0.3s ease;
+}
+
+.playfair-display-regular {
+  font-family: "Playfair Display SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.playfair-display-bold {
+  font-family: "Playfair Display SC", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.playfair-display-black {
+  font-family: "Playfair Display SC", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+.playfair-display-regular-italic {
+  font-family: "Playfair Display SC", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+.playfair-display-bold-italic {
+  font-family: "Playfair Display SC", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+.playfair-display-black-italic {
+  font-family: "Playfair Display SC", serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+/*# sourceMappingURL=layout1.css.map */

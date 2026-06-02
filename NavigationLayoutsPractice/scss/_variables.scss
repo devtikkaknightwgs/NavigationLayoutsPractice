@@ -1,4 +1,12 @@
 $primary-color: #0078d7;
+$secondary-color: #005ea8;
+
+$text-color: #333;
+$light-bg: #f5f5f5;
+$white: #fff;
+
+$shadow: 0 2px 10px rgba(0,0,0,.1);
+$mobile-breakpoint: 900px;
 
 .navbar {background-color: $primary-color;}
 .loginBtn {background: $primary-color;}
