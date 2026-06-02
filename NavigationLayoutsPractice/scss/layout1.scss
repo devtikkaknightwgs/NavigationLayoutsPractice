@@ -1,0 +1,37 @@
+.playfair-display- {
+  &regular {
+    font-family: "Playfair Display SC", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  &bold {
+    font-family: "Playfair Display SC", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  &black {
+    font-family: "Playfair Display SC", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  &regular-italic {
+    font-family: "Playfair Display SC", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  &bold-italic {
+    font-family: "Playfair Display SC", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  &black-italic {
+    font-family: "Playfair Display SC", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+}

@@ -1,20 +1,44 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <nav class='nav1'>
-        <!--Horizontal Navigation Layout-->
-        <div class="logo">MyShop</div>
-        <ul>
-            <li>Home</li>
-            <li>Products</li>
-            <li>About</li>
-            <li>Contact</li>
-        </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <title>Horizontal Navigation Layout</title>
+    <link rel="stylesheet" href="../scss/layout1.scss" />
+    <link rel="stylesheet" href="../scss/_variables.scss" />
+    <!--Font Awesome Icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <!--Horizontal Navigation Layout-->
+      <div class="logo playfair-display-black">BeautyShop</div>
+      <ul class="navLink">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="navActions">
+        <div class="searchBox">
+          <input type="text" placeholder="Search Product">
+          <i class="fa-solid fa-magnifying-glass"></i> 
+        </div>
+        <button class="loginBtn">Login</button>
+        <div class="cart">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+      </div>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     </nav>
-</body>
+    <script src="../js/layout1.js"></script>
+  </body>
 </html>
